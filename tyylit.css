@@ -1,0 +1,40 @@
+#container {
+    display: inline-flex;
+    width: 100%;
+}
+#container div {
+    flex-grow: 1;
+}
+
+input {
+    float: right;
+}
+
+label {
+    display: block;
+    min-height: 2em;
+    position: relative;
+}
+
+fieldset p {
+    display: block;
+    overflow: auto;
+}
+
+p span {
+    float: right;
+}
+
+p label > input {
+    float: none;
+
+}
+
+p label {
+    min-height: 1em;
+    text-align: right;
+}
+
+button {
+    margin-bottom: 2em;
+}
